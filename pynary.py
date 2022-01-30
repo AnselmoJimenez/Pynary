@@ -24,6 +24,9 @@ class Pynary:
             else:
                 break;
         return binary[::-1];
+    
+    def decimal_to_hex(self, decimal):
+        pass
 
     def binary_to_decimal(self, binary):
         decimal = 0;
@@ -32,6 +35,15 @@ class Pynary:
             elif token == "1" and decimal != 0: decimal += 2**index;
             else: continue;
         self.decimal = decimal;
+    
+    def binary_to_hex(self, binary):
+        pass
+
+    def hex_to_decimal(self, hex):
+        pass
+
+    def hex_to_binary(self, hex):
+        pass
 
         
 if __name__ == "__main__":
